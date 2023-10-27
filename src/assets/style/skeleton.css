@@ -91,7 +91,7 @@
   align-items: center;
 }
 
-.btn {
+.btn-skeleton {
   padding-inline: 2rem;
   width: 350px;
   height: 40px;

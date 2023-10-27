@@ -10,7 +10,7 @@
         <div class="bottom">
           <div class="price"><div class="loader-price"></div></div>
           <div class="row">
-            <button class="btn"><div class="loader-btn1"></div></button> <button class="btn"><div class="loader-btn2"></div></button>
+            <button class="btn-skeleton"><div class="loader-btn1"></div></button> <button class="btn-skeleton"><div class="loader-btn2"></div></button>
           </div>
         </div>
       </div>
