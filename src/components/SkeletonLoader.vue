@@ -18,11 +18,7 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "LoaderComponent",
-};
-</script>
+<script></script>
 
 <style>
 @import url("../assets/style/skeleton.css");

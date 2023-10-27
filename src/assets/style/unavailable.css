@@ -1,0 +1,56 @@
+:root {
+  --navyBlue: #002772;
+  --magentaPurple: #720060;
+  --lightBlue: #d6e6ff;
+  --lightPurple: #fde2ff;
+  --black: #1e1e1e;
+  --darkGray: #3f3f3f;
+  --gray: #dcdcdc;
+  --white: #ffffff;
+}
+
+.container {
+  background-image: url("../bg-pattern.png");
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: linear-gradient(to bottom, var(--gray) 70%, var(--white) 30%);
+}
+
+.card {
+  width: 1550px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  height: 70%;
+  display: flex;
+  background-image: url("../sad-face.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+  position: relative;
+}
+
+.btn-unavailable {
+  width: 500px;
+  height: 36px;
+  background-color: var(--white);
+  color: va(--black);
+  font-weight: 600;
+}
+.unavailable-message {
+  color: va(--black);
+  font-weight: 480;
+}
+
+.row-unavailable {
+  position: absolute;
+  left: 33%;
+  top: 50%;
+  text-align: center;
+  justify-content: center;
+}
